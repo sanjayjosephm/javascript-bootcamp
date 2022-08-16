@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 2%;
+            padding: 5%;
+        }
+        .buttons-1{
+            padding: 9px 25px;
+            color: #e0eaed;
+            background-color: #2aeca1;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            text-decoration: none;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 500;
+            font-size: 20px;
+            transition: all 0.3s ease 0s;
+        }
+
+        .buttons-1:hover{
+            background-color: rgb(72, 73, 66);
+            color: #f0eeda;
+            
+        }
+        .buttons-2{
+            padding: 9px 25px;
+            color: #e0eaed;
+            background-color: #2aeca1;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            text-decoration: none;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 500;
+            font-size: 20px;
+            transition: all 0.3s ease 0s;
+        }
+
+        .buttons-2:hover{
+            background-color: rgb(72, 73, 66);
+            color: #f0eeda;
+            padding: 10px 50px;
+            
+        }
+        .buttons-3{
+            display: flex;
+            padding: 9px 25px;
+            color: #e0eaed;
+            background-color: #2aeca1;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            text-decoration: none;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 500;
+            font-size: 20px;
+            transition: all 0.3s ease 0s;
+        }
+        img{
+            max-width: 20px;
+        }
+
+        .buttons-3:hover{
+
+            background-color: rgb(210, 226, 120);
+            color: #f0eeda;
+        }
+        .buttons-4{
+            display: flex;
+            padding: 9px 25px;
+            color: #e0eaed;
+            background-color: #2aeca1;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            text-decoration: none;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 500;
+            font-size: 20px;
+            transition: all 0.3s ease 0s;
+        }
+        img{
+            max-width: 20px;
+        }
+
+        .buttons-4:hover{
+
+            background-color: rgb(210, 226, 120);
+            color: #f0eeda;
+            
+        }
+
+
+    </style>
+</head>
+<body>
+    <button href="#" class="buttons-1">HOME</button>
+    <button href="#" class="buttons-2">ABOUT</button>
+    <button href="#" class="buttons-3"><img class="phone" src="/images/phone.png" alt="phone"> CONTACT</button>
+    <button href="#" class="buttons-4"><img class="phone" src="/images/phone.png" alt="phone">LOGIN</button>
+
+</body>
+</html>
